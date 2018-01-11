@@ -1,0 +1,191 @@
+/* Main navbar */
+.navbar {
+  transition: all 0.3s ease;
+  height: 70px !important;
+  margin-bottom: 0px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute !important;
+  border-radius: 0px !important;
+  z-index: 1;
+  background-color: white;
+  box-shadow: -1px 1px 1px #7F7F7F;
+  width: 100vw;
+}
+
+/* Logo */
+.navbar-brand {
+  margin-bottom: 37px;
+  margin-right: 55vw;
+}
+
+.logo {
+  height: 50px;
+}
+
+/* Buy Buttons */
+
+.buy-big {
+  height: 40px;
+  width: 200px;
+  background-color: #169D74;
+  text-align: center;
+}
+
+.buy-big:hover {
+  background-color: #0F7262;
+  cursor: pointer;
+}
+
+.buy-big p {
+  padding-top: 8px;
+  color: white;
+}
+
+.buy-medium {
+  height: 40px;
+  background-color: #38D36B;
+  color: white;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.buy-medium p {
+  padding-top: 3px;
+}
+
+.buy-medium {
+  cursor: pointer;
+}
+
+.buy-b {
+  margin-bottom: 20px;
+}
+
+.buy-b p {
+  padding-top: 10px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  height: 100%;
+}
+
+#myVideo {
+  width: 100vw;
+  margin-top: -50px;
+}
+
+.content {
+  position: absolute;
+  right: 20vw;
+  top: 180px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 60vw;
+  padding: 1vw;
+  text-align: center;
+}
+
+.jumbotron-button {
+  margin: 0 auto;
+}
+
+/* Info Panel */
+
+.info-panel {
+  background-color: white;
+  z-index: 2;
+  text-align: center;
+  margin-top: -90px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  margin: 30px;
+}
+
+.info-item img {
+  height: 110px;
+}
+
+.border {
+  border-right: 2px solid white;
+  height: 240px;
+  margin-top: 40px;
+}
+
+.line {
+  border-bottom: 3px solid #6B6B6B;
+  margin: 0 auto;
+  width: 92vw;
+}
+
+/* Testimonial Section */
+
+.testimonials {
+  background-color: white;
+}
+
+.testimonials h1 {
+  align-items: center;
+  text-align: center;
+  padding-top: 1px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.testimonial-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  height: 430px;
+  margin: 25px;
+}
+
+/* Directions Section */
+
+.directions {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.direction-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.direction-box img {
+  height: 300px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+      margin-right: 0vw;
+    } .content {
+      top: 80px;
+      right: 5vw;
+      width: 90vw;
+    } .content h1 {
+      font-size: 20px;
+    } .testimonial {
+      height: 230px;
+    }
+}
